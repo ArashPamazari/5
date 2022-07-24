@@ -8,9 +8,9 @@ print('choose the player type:')
 player_type = int(input('1. player vs computer , 2. player vs player'))
 
 def show_game_board():
-    for i in range(3):
-        for j in range(3):
-            print(game[i][j], end=' ')
+    for i in range(3):     # in tedad satrha ast ( chand khat zir ham)
+        for j in range(3): # in tedad sotonha ast
+            print(game[i][j], end=' ')  # albate baray moshakhas kardan adad range , dar paeen khode game board moshakhas shode va aval ono bayad keshid.
         print()
 
 def check():
